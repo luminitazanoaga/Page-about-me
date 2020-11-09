@@ -1,0 +1,93 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  background: #f3f4f5;
+}
+.header {
+  overflow: hidden;
+  background-color:rgba(111, 143, 192, 0.534);
+  padding: 20px 10px;
+}
+
+
+.header a {
+  float:left;
+  color:#020202;
+  text-align: left;
+  padding: 20px;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+  text-decoration: dotted;
+
+}
+
+
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #020202;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  text-shadow: #f1f1f1;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(239, 239, 241);
+  color: black;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 100%
+}
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.card {
+  background-color: rgb(132, 160, 185);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 500px;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
